@@ -1,12 +1,9 @@
-
 .open-sans-normal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
-  }
-  
-  
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
 
 /* Shere Style */
 
@@ -29,7 +26,6 @@
 }
 
 
-
 /* header imges */
 
 .header {
@@ -38,8 +34,6 @@
   background-repeat: no-repeat;
   background-position: top left, bottom right;
 }
-
-
 
 /* Nav Styles */
 
@@ -53,7 +47,6 @@ nav {
 .nav-title {
   font-weight: 800;
   font-style: 60px;
-  
 }
 
 nav ul {
@@ -70,14 +63,12 @@ nav li a {
   text-decoration: none;
 }
 
-
-
-
 /* banner styles */
+
 .banner-greetings {
   font-size: 45px;
   font-weight: 600;
-  margin-bottom:-40px;
+  margin-bottom: -40px;
 }
 
 .banner-description {
@@ -91,14 +82,12 @@ nav li a {
   display: flex;
   justify-content: space-between;
   margin: 0 35px 0 200px;
-
 }
 
 .banner-Contant {
   max-width: 580px;
   margin-top: 80px;
 }
-
 
 .banner-title {
   font-size: 85px;
@@ -108,4 +97,60 @@ nav li a {
 
 .banner-profile-pic {
   width: 580px;
+}
+
+
+/* main section 2 */
+
+
+/* main styles */
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* main section  */
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+  color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
+  text-align: center;
+}
+.secondary-bg {
+  background-color: #fff8f3;
+}
+
+
+/* about */
+
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+  margin:80px ;
+}
+.abot-items{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.item-title{
+  color:#757575;
+  font-size: 15px;
+  margin-top: 15px;
+}
+.item-description{
+  color: #474747;
+  font-weight: bold;
+  font-size:15px;
+  margin-top: -10px;
+
 }
